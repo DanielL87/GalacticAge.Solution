@@ -20,8 +20,7 @@ export class GalacticeAge {
 
     jupiterage(){
     return Math.round(this.age / 11.86);    
-    }
-
+    }    
     mercurylifeexpectancy(){
     return Math.round((this.lifeexpectancy / .24) - (this.age / .24))     
     }
@@ -38,5 +37,6 @@ export class GalacticeAge {
     return Math.round((this.lifeexpectancy / 11.86) - (this.age / 11.86))     
     }
 }
+
 
 
